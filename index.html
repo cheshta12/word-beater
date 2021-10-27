@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white">
+    <div class="bg-secondary text-center p-3 m-5">
+        <h1>WordBeater</h1>
+    </div>
+<div class="container text-center">
+    <!-- Word $ input -->
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <p class="lead">Type the below mentioned word within
+            <span class="text-success" id="seconds">6 </span>seconds:</p>
+            <h2 class="display-2 mb-5" id="current-word">Hello</h2>
+            <input type="text" class="form-control form-control-lg" placeholder="start typing.." id="word-input" autofocus>
+            <h4 class="mt-3" id="message"></h4>
+
+
+            <!-- time$score Colums -->
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h3>Time left: <span id="time">6</span></h3>
+                </div>
+                <div class="col-md-6">
+                    <h3>Score:<span id="score">0</span></h3>
+                </div>
+            </div>
+            <!--Instructions  -->
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="carc card-body bg-secondary text-white">
+                        <h5>Instructions</h5>
+                        <p>Type each word in a given span of time alloted if you do it will go on and on and see if you can really type it real fast!!:)..and if you FAIL not to worry GIVE it a another GO!!Cheers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
